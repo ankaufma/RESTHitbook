@@ -1,0 +1,10 @@
+@(message: String)
+
+@main("Welcome to Play") {
+
+    <form action="@routes.Application.addFelledTree()" method="post">
+        <input name="lumberjack" type="text">
+        <button>Submit</button>
+    </form>
+
+}
